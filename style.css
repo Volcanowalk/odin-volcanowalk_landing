@@ -80,6 +80,8 @@ button {
 button:hover {
     background-color: #413C58;
     color: white;
+    border-style: solid;
+    border-color: white;
 }
 
 .section2 {
