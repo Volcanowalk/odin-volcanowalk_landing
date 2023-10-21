@@ -2,10 +2,10 @@ body {
     font-family: Arial, Helvetica, sans-serif; 
     margin: 0;
     padding: 0;
+    background-color: #413C58;
 }
 
 .header, .footer, .section1 {
-    background-color: #413C58;
     color: white;
 }
 
@@ -70,8 +70,11 @@ button {
     width: 100px;
     height: 50px;
     font-size: 20px;
-    margin-top: 10px;
     border-radius: 10px;
+}
+
+.section1-1 button {
+    margin-top: 10px;
 }
 
 button:hover {
@@ -149,4 +152,9 @@ button:hover {
     border-radius: 10px;
     display: flex;
     gap: 30px;
+}
+
+.ad-quote-1 {
+    font-size: 18px;
+    font-weight: 900;
 }
