@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer, .section1 {
+    background-color: #413C58;
+    color: white;
+}
+
+.section2 {
+    background-color: #A3C4BC;
+}
+
+.section3 {
+    background-color: #BFD7B5;
+}
+
+.section4 {
+    background-color: #E7EFC5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+span {
+   font-size: 24px;
+   font-weight: 700;
+}
+
+li {
+    font-size: 18px;
+}
+
+.section1 {
+    display: flex;
+    padding: 100px 50px 100px 50px;
+    justify-content: center;
+}
+
+.section1-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-text {
+    font-size:48px;
+    font-weight: 700;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+}
+
+button {
+    background-color: #F2DDA4;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #413C58;
+    color: white;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.section1-2{
+    margin-left: 50px;
+}
+
+.image-filler {
+    width: 200px;
+    height: 250px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+.text, .image-filler {
+    margin: 15px;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 100px 150px 100px 150px;
+}
+
+.quote {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.quote-from {
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-container {
+    background-color: #A3C4BC;
+    margin: 80px 100px 80px 100px;
+    padding: 50px 70px 50px 70px;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+}
